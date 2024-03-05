@@ -38,19 +38,19 @@ const Footercomponent=()=>{
       </h3>
       <ul>
         <li>
-          <a >Home</a>
+          <i >Home</i>
         </li>
         <li>
-          <a >Services</a>
+          <i >Services</i>
         </li>
         <li>
-          <a>About us</a>
+          <i>About us</i>
         </li>
         <li>
-          <a >Features</a>
+          <i >Features</i>
         </li>
         <li>
-          <a >Contacts</a>
+          <i >Contacts</i>
         </li>
       </ul>
     </div>

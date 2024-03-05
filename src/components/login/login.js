@@ -2,8 +2,8 @@
 import './login.css'; // Make sure to import your CSS file
 
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGooglePlusG, faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faGooglePlusG, faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 // import './LoginForm.css';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
@@ -128,13 +128,13 @@ const LoginForm = () => {
           <input type="password" name="password" placeholder="Password" onChange={handleChange} />
           {!isSignIn && (
             <React.Fragment>
-              <a href="#">Forget Your Password?</a>
+              <i>Forget Your Password?</i>
               <button type="submit">Sign Up</button>
             </React.Fragment>
           )}
           {isSignIn && (
             <React.Fragment>
-              <a href="#">Forget Your Password?</a>
+              <i >Forget Your Password?</i>
               <button type="submit">Sign In</button>
             </React.Fragment>
           )}

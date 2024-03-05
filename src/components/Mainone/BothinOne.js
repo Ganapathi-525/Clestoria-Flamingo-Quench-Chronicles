@@ -38,7 +38,7 @@ const CombinedComponent = ({ data }) => {
 
         // Clear the interval when the component is unmounted
         return () => clearInterval(intervalId);
-    }, []);
+    });
     
 
     const nextSlide = () => {

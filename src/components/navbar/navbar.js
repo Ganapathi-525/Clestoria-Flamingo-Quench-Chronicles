@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import Allwine from "../Sorting/All wines";
+// import Allwine from "../Sorting/All wines";
 import "./navbar.css"
 
 
@@ -13,7 +13,7 @@ const Navbar=()=>{
 
 <Link style={{textDecoration:"none"}} to={"/Allwine"}>
 
-<button class="button-49" role="button" >Allwine
+<button class="button-49" >Allwine
 <svg
       xmlns="http://www.w3.org/2000/svg"
       enableBackground="new 0 0 24 24"
@@ -40,7 +40,7 @@ const Navbar=()=>{
 </Link>
 
 <Link style={{textDecoration:"none"}} to={"/Brandy"}>
-<button class="button-49" role="button">Brandy
+<button class="button-49" >Brandy
 <svg
       xmlns="http://www.w3.org/2000/svg"
       enableBackground="new 0 0 24 24"
@@ -57,7 +57,7 @@ const Navbar=()=>{
 </Link>
 
 <Link style={{textDecoration:"none"}} to={"/Wine"}>
-<button class="button-49" role="button">Wine
+<button class="button-49" >Wine
 <svg
       xmlns="http://www.w3.org/2000/svg"
       enableBackground="new 0 0 24 24"
@@ -85,7 +85,7 @@ const Navbar=()=>{
 </Link>
 
 <Link style={{textDecoration:"none"}} to={"/Whiskey"}>
-<button class="button-49" role="button">Whiskey
+<button class="button-49" >Whiskey
 <svg
       xmlns="http://www.w3.org/2000/svg"
       height={40}
@@ -100,7 +100,7 @@ const Navbar=()=>{
 </Link>
 
 <Link style={{textDecoration:"none"}} to={"/Gin"}>
-<button class="button-49" role="button">Gin
+<button class="button-49" >Gin
 <svg
       xmlns="http://www.w3.org/2000/svg"
       enableBackground="new 0 0 24 24"
@@ -117,7 +117,7 @@ const Navbar=()=>{
 </Link>
 
 <Link style={{textDecoration:"none"}} to={"/Beer"}>
-<button class="button-49" role="button">Beer
+<button class="button-49" >Beer
 <svg
       xmlns="http://www.w3.org/2000/svg"
       height={40}
@@ -135,7 +135,7 @@ const Navbar=()=>{
 
 
 <Link style={{textDecoration:"none"}} to={"/Liqueur"}>
-<button class="button-49" role="button">Liqueur
+<button class="button-49" >Liqueur
 <svg
       xmlns="http://www.w3.org/2000/svg"
       enableBackground="new 0 0 24 24"
