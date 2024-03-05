@@ -120,18 +120,7 @@ const LoginForm = () => {
         <form onSubmit={handleSubmit}>
           <h1>{isSignIn ? 'Sign In' : 'Create Account'}</h1>
           <div className="social-icons">
-            <a href="#" className="icon">
-              <FontAwesomeIcon icon={faGooglePlusG} />
-            </a>
-            <a href="#" className="icon">
-              <FontAwesomeIcon icon={faFacebookF} />
-            </a>
-            <a href="#" className="icon">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a href="#" className="icon">
-              <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
+           
           </div>
           <span>{isSignIn ? 'or use your email and password' : 'or use your email for registration'}</span>
           {!isSignIn && <input type="text" name="name" placeholder="Name" onChange={handleChange} />}

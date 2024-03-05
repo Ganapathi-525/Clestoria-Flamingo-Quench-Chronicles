@@ -9,7 +9,7 @@ const Footercomponent=()=>{
         <footer>
   <div className="row">
     <div className="col">
-      <img src="" className="logo" />
+      {/* <img src="" className="logo" /> */}
       <p>
         You can never take too much care over the choice of your shoes. Too many
         women think that they are unimportant, but the real proof of an elegant
@@ -38,19 +38,19 @@ const Footercomponent=()=>{
       </h3>
       <ul>
         <li>
-          <a href="index.html">Home</a>
+          <a >Home</a>
         </li>
         <li>
-          <a href="">Services</a>
+          <a >Services</a>
         </li>
         <li>
-          <a href="">About us</a>
+          <a>About us</a>
         </li>
         <li>
-          <a href="">Features</a>
+          <a >Features</a>
         </li>
         <li>
-          <a href="">Contacts</a>
+          <a >Contacts</a>
         </li>
       </ul>
     </div>
