@@ -11,3 +11,10 @@ body{
   /* background-image: url("https://images.pexels.com/photos/941864/pexels-photo-941864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
 
 }
+
+#header{
+
+  margin: auto;
+  margin-left: 250px;
+  padding: 10px;
+}

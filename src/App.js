@@ -24,7 +24,8 @@ const App = () => {
   return (
     <div className='containr'>
       
-      <h1>Clestoria Flamingo Quench Chronicles</h1>
+      {/* <h1>Clestoria Flamingo Quench Chronicles</h1> */}
+      <h1 id='header'>▁ ▂ ▄ ▅ ▆ ▇ █ Clestoria Flamingo Quench Chronicles █ ▇ ▆ ▅ ▄ ▂ ▁ </h1>
 
    
       

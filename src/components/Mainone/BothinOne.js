@@ -85,7 +85,7 @@ const CombinedComponent = ({ data }) => {
             <Navbar />
 
             {!userInteracted && (
-                <button onClick={handleButtonClick} className="combined-button">
+                <button onClick={handleButtonClick} className="combined-button1">
                     Click here to enable audio interactions
                 </button>
             )}
