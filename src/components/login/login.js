@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGooglePlusG, faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 // import './LoginForm.css';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const LoginForm = () => {
   const [isSignIn, setIsSignIn] = useState(true);
@@ -130,12 +130,23 @@ const LoginForm = () => {
             <React.Fragment>
               <i>Forget Your Password?</i>
               <button type="submit">Sign Up</button>
+              <Link to={"/Navbar"}>
+              <button>Skip This</button>
+              </Link>
+             
             </React.Fragment>
+
+            
           )}
           {isSignIn && (
             <React.Fragment>
               <i >Forget Your Password?</i>
               <button type="submit">Sign In</button>
+              {/* <Link to={"/Navbar"} > */}
+
+              <Link to={"/Navbar"} >
+              <button>Skip This</button>
+              </Link>
             </React.Fragment>
           )}
         </form>
@@ -158,7 +169,11 @@ const LoginForm = () => {
           </div>
         </div>
       </div>
+
+      
+   
     </div>
+
   );
 };
 
